@@ -1,0 +1,25 @@
+{
+    "name": "baidu-bpit-babel/clouddisk-sdk",
+    "description": "ecloud.baidu.com php sdk micro service",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenhongwei01",
+            "email": "chenhongwei01@baidu.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.33",
+        "guzzlehttp/guzzle": "^6.3",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaiduEcloud\\": "src/BaiduEcloud/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}

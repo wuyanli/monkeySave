@@ -1,0 +1,1 @@
+BUILD_SUBMITTER -x -u . -c 'cd baidu/bpit-babel/clouddisk-sdk && chmod +x * && sh build.sh' -m baidu/bpit-babel/clouddisk-sdk -o ./output -d ./
